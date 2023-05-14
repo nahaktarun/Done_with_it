@@ -19,6 +19,7 @@ export default function App() {
     //     image={require("./app/assets/chair.jpg")}
     //   />
     // </View>
-    <ListingDetailsScreen />
+    // <ListingDetailsScreen />
+    <ViewImageScreen />
   );
 }
