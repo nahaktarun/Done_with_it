@@ -9,7 +9,7 @@ export default function App() {
     // <WelcomeScreen />
     // <ViewImageScreen />
     <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
-      <AppText>I'love React Native</AppText>
+      <AppText>I Love react Native</AppText>
     </View>
   );
 }
