@@ -8,7 +8,16 @@ export default AppText;
 
 const styles = StyleSheet.create({
   text: {
-    fontSize: 18,
-    fontFamily: Platform.OS === "android" ? "Roboto" : "Avenir",
+    color: "tomato",
+    ...Platform.select({
+      ios: {
+        fontSize: 20,
+        fontFamily: "Avenir",
+      },
+      android: {
+        fontFamily: "Roboto",
+        fontSize: 18,
+      },
+    }),
   },
 });
