@@ -1,12 +1,14 @@
 import React from "react";
 import { Image, StyleSheet, View } from "react-native";
 import { MaterialCommunityIcons } from "@expo/vector-icons";
+
 import colors from "../config/colors";
+
 function ViewImageScreen(props) {
   return (
     <View style={styles.container}>
       <View style={styles.closeIcon}>
-        <MaterialCommunityIcons name="close" color="white" size={30} />
+        <MaterialCommunityIcons name="close" color="white" size={35} />
       </View>
       <View style={styles.deleteIcon}>
         <MaterialCommunityIcons
@@ -24,7 +26,6 @@ function ViewImageScreen(props) {
   );
 }
 
-export default ViewImageScreen;
 const styles = StyleSheet.create({
   closeIcon: {
     position: "absolute",
@@ -45,3 +46,5 @@ const styles = StyleSheet.create({
     height: "100%",
   },
 });
+
+export default ViewImageScreen;
