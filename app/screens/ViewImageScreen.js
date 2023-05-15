@@ -12,7 +12,7 @@ function ViewImageScreen(props) {
         <MaterialCommunityIcons
           name="trash-can-outline"
           color="white"
-          size={30}
+          size={35}
         />
       </View>
       <Image
